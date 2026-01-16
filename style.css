@@ -1,5 +1,5 @@
 body {
- background-color: whitesmoke; 
+ background-color: #fcfcfc; 
  margin: 0;
  padding: 0;
  display: flex;
@@ -28,3 +28,80 @@ body {
     margin-bottom: 10px;
 }
 
+.logo {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.input-group{
+    margin: 6px
+}
+
+form input {
+    width: 100%;
+    padding: 9px 8px 7px 8px;
+    background-color: #fcfcfc;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: lighter;
+    outline: none;
+}
+
+form input:focus {
+    border-color: gray;
+}
+
+form input::placeholder {
+    color: gray;
+    opacity: 1;
+}
+
+.login-button {
+    width: 100%;
+    background-color: #818efb;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin:18px 0;
+    height: 15px;
+}
+
+.divider-line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+.divider-text {
+    margin: 0 18px;
+    font-size: small;
+    font-weight: lighter;
+    color: gray;
+}
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0195f6;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.facebook-login i {
+    font-size: large;
+    margin-right: 8px;
+}
